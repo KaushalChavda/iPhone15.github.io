@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+.page1-top .page1-heading {
+  font-size: 20px;
+  font-weight: 100;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.page1-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page1-bottom-heading .heading {
+  color: #b3ada4;
+  padding-top: 1.5rem;
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+.page1-bottom p {
+  color: #fff;
+  font-size: 25px;
+}
+.apple-vid-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10%;
+}
+.page2-right-heading {
+  display: flex;
+}
+.heading1,
+.heading2 {
+  padding: 2rem;
+}
+.heading1:hover,
+.heading2:hover {
+  color: #2d53fc;
+}
+.page2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+.carousel-item {
+  height: 60%;
+  width: 70%;
+}
+.apple-vid video {
+  border-radius: 3rem;
+}
+.page2 .apple-vid video {
+  height: 90%;
+  width: 100%;
+  border-radius: 3rem;
+}
+.page3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page3 h2{
+  padding-top: 6rem;
+}
+.apple-all-images img{
+  width: 100%;
+  padding-top: 4rem;
+}
+.page3 p{
+  color: white;
+}
+.page4{
+  padding-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page4-subtitle{
+  margin-right: 20%;
+  padding-top: 5rem;
+}
+.page4-subtitle h3{
+  font-size: 5rem;
+  font-weight: 500;
+  color: #fff;
+}
+.apple-video{
+  margin-top: 5rem;
+}
